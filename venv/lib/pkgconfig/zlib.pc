@@ -1,0 +1,13 @@
+prefix=/Users/pradhyumnasg/Developer/Projects/Mini_Project/venv
+exec_prefix=/Users/pradhyumnasg/Developer/Projects/Mini_Project/venv
+libdir=/Users/pradhyumnasg/Developer/Projects/Mini_Project/venv/lib
+sharedlibdir=/Users/pradhyumnasg/Developer/Projects/Mini_Project/venv/lib
+includedir=/Users/pradhyumnasg/Developer/Projects/Mini_Project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
